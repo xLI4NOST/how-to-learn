@@ -82,7 +82,7 @@ justify-content: center;
 margin-top: 100px;
 width: 80%;
 display: flex;
-justify-content: space-between ;
+justify-content: space-between;
 }
 .two-columns__breif{
 width: 175px;
@@ -322,7 +322,7 @@ flex-basis: 711px;
 .logo_place_footer{
 height: 32px;
 width: 228px;
-background-image: url(../images/logo_place_footer.svg)
+background-image: url(../images/logo_place_footer.svg);
 }
 .footer__author{
   margin-bottom: 18px;
