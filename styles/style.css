@@ -50,7 +50,7 @@ z-index: 2;
 
 .header__link{
 text-decoration: none;
-color: #2f80ed
+color: #2f80ed;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -295,10 +295,11 @@ min-height: 350px;
 background-color: #1f1f1f;
 padding-bottom: 40px;
 box-sizing: border-box;
-min-height: 350px;
 }
 .footer_column{
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   width: 100$;
 }
 .footer__columns{
@@ -350,7 +351,7 @@ background-image: url(../images/logo_place_footer.svg);
   color:white;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal;  
+  font-weight: normal;
   text-decoration: none;
 }
 
