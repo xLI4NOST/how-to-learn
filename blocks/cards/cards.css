@@ -1,5 +1,7 @@
 .cards {
     margin: 0;
+    padding: 0;
+    list-style-type: none;
     margin: auto auto;
     width: 920px;
     display: flex;
