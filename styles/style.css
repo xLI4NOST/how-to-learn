@@ -62,6 +62,13 @@ animation: rotation 20s infinite linear;
   color: #2f80ed;
 }
 
+.link-opacity{
+  transition: ease-in 0.4s ;
+}
+.link-opacity:hover{
+opacity: 0.5;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 .header__main-illustration {
@@ -133,25 +140,23 @@ animation: rotation 20s infinite linear;
 .techniques{
   margin: 0;
   margin-top: 100px;
-  width: 80%;
   margin: auto auto;
-  border: 3px solid red;
   position: relative;
 }
 .cards{
   margin: 0;
   margin: auto auto;
   width: 920px;
-  border: 3px solid red;
   display: flex;
+  justify-content: space-between;
 flex-wrap: wrap;
-align-content: flex-start;
+
 }
 
 .cards__item{
   margin: 0;
 margin-top: 60px;
-border: 3px solid palegoldenrod;
+width: 240px;
 }
 
 .cards__image{
@@ -164,7 +169,7 @@ height: 160px;
 .cards__title{
   margin: 0;
 margin-top: 43px;
-line-height: 1.15px;
+line-height: 24px;
 font-size: 24px;
 font-weight: bold;
 text-align: center;
@@ -180,31 +185,34 @@ text-align: center;
 }
 
 .video{
+  position: relative;
   margin-top: 100px;
+  margin-bottom: -60px;
 }
 .video__iframes{
 display: flex;
-gap: 100px;
+justify-content: center;
 }
 .video__iframe{
-  margin: 50px auto auto;
+  margin-top: 50px;
   width: 515px;
   height: 316px;
-border: 3px solid blue;
+  overflow: hidden;
 }
 
 .oakley{
-border: 3px solid red;
 display: flex;
 justify-content: center;
 background-color: #f2f2f2;
 }
+.oakley__two-columns{
+  margin-top: 160px;
 
+}
 .feynman {
   position: relative;
   background-color: #f2f2f2;
   min-height: 890px;
-  padding-top: 100px;
 }
 
 .feynman__image {
