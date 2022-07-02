@@ -65,8 +65,8 @@
 @import url(../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/_theme/table_cell_theme_dark.css);
-@import url(../blocks/table/__heading/_theme_dark/table__heading_theme_dark.css);
-@import url(../blocks/table/__text/_theme_dark/table__text_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 @import url(../blocks/kaufman/__triangle/kaufman__tirangle.css);
 /* resources */
 @import url(../blocks/resources/resources.css);
